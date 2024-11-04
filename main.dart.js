@@ -77064,7 +77064,7 @@ $S:0}
 A.a66.prototype={
 $2(a,b){var s,r,q=null,p=A.mU(10),o=this.a,n=t.E
 o=A.rm(A.b([o.Pi(),A.qt(!1,!0,B.lX,q,!0,q,q,q,q,q,q,q,q,q,new A.a62(o,this.b),q,q,q,q)],n),B.au,B.iT,B.bb)
-s=A.asC(q,q,new A.qT("assets/ultimate-logo.png",1,q))
+s=A.asC(q,q,new A.qT("https://imgur.com/6yhSzbH",1,q))
 r=A.aAY(B.eA,q,B.bu,q,q,q,q,q,q,q,q,B.Lk,q,q,new A.cv(A.mU(8),B.p),q,q,q,q)
 return A.jf(A.l2(q,A.pZ(A.b([o,B.di,new A.qp(s,q,40,q,q),B.di,B.Qz,B.Lm,B.QH,B.di,A.aqO(A.rm(A.b([A.qt(!1,!0,B.CY,q,!0,q,q,q,q,q,q,q,q,q,new A.a63(a),q,q,q,q),B.xj,B.QE],n),B.au,B.aM,B.bb),new A.a64(a),r),B.di,A.nt(q,B.Qy,B.ai,!1,q,q,q,q,q,q,q,q,q,q,q,q,new A.a65(),q,q,q),B.di,B.QC],n),B.bv,B.rb,B.d1),B.z,q,new A.da(q,q,q,p,B.mi,B.Ds,B.aH),q,550,q,B.lw,q,q,q),q,q)},
 $S:498}
