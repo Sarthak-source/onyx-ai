@@ -31,8 +31,29 @@
 
   <title>onix_bot</title>
   <link rel="manifest" href="manifest.json">
+
+  <!-- AidBase chatbot script -->
+  <script>
+    AIDBASE_CHATBOT_ID = 'UViB_LRUFxpPUy27Wb6xi';
+  </script>
+  <script async type="text/javascript" src="https://client.aidbase.ai/chat.ab.js"></script>
+
+  <style>
+    /* Position the chatbot button on the left side */
+    #chatbot-button {
+      position: fixed;
+      left: 20px;
+      bottom: 20px;
+      z-index: 1000;
+    }
+  </style>
 </head>
 <body>
+  <div id="chatbot-button">
+    <!-- Placeholder for the chatbot button -->
+    <!-- You may replace this with the actual button HTML or script required by AidBase -->
+  </div>
+
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
