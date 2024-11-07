@@ -76865,7 +76865,7 @@ s=p}while(true)switch(s){case 0:p=4
 j=t.N
 i=t.z
 s=7
-return A.S(n.a.Sr("https://13.200.243.230:443/ask",B.bN.wX(A.aE(["question",a],j,j)),A.as7(A.aE(["Content-Type","application/json"],j,i)),i),$async$jV)
+return A.S(n.a.Sr("https://fdea-13-200-243-230.ngrok-free.app",B.bN.wX(A.aE(["question",a],j,j)),A.as7(A.aE(["Content-Type","application/json"],j,i)),i),$async$jV)
 case 7:m=c
 if(m.c===200){l=m.a
 A.um(J.cL(l))
