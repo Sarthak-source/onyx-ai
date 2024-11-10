@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -14,25 +15,48 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="/onyx-ai/">
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+<body>
+  <script>
+    window.addEventListener('load', function (ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        }
+      }).then(function (engineInitializer) {
+        // BEGIN CHANGE
+        return engineInitializer.initializeEngine({
+          useColorEmoji: true,
+        });
+        // END CHANGE
+      }).then(function (appRunner) {
+        return appRunner.runApp();
+      });
+    });
+  </script>
+</body>
+<base href="/onyx-ai/">
 
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="onix_bot">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+<meta charset="UTF-8">
+<meta content="IE=Edge" http-equiv="X-UA-Compatible">
+<meta name="description" content="A new Flutter project.">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+<!-- iOS meta tags & icons -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="onix_bot">
+<link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <title>onix_bot</title>
-  <link rel="manifest" href="manifest.json">
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="favicon.png" />
+
+<title>onix_bot</title>
+<link rel="manifest" href="manifest.json">
 </head>
+
 <body>
   <script src="flutter_bootstrap.js" async></script>
 </body>
+
 </html>
