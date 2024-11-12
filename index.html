@@ -26,24 +26,6 @@
 </head>
 
 <body>
-  <script>
-    window.addEventListener('load', function (ev) {
-      // Download main.dart.js
-      _flutter.loader.load({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        }
-      }).then(function (engineInitializer) {
-        // Initialize Flutter engine with options
-        return engineInitializer.initializeEngine({
-          useColorEmoji: true,
-        });
-      }).then(function (appRunner) {
-        // Run the Flutter app
-        return appRunner.runApp();
-      });
-    });
-  </script>
 
   <!-- Load Flutter app -->
   <script src="flutter_bootstrap.js" async></script>
