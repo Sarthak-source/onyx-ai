@@ -75998,7 +75998,7 @@ a2=t.z
 a3=A.aBW(A.aF(["Content-Type","application/json"],a0,a2))
 a3.a="POST"
 s=7
-return A.R(n.a.FJ("http://127.0.0.1:5000/ask",null,a1,null,null,a3,null,a2),$async$jP)
+return A.R(n.a.FJ("https://onix-bot.onrender.com/ask",null,a1,null,null,a3,null,a2),$async$jP)
 case 7:m=a8
 if(m.c===200){l=m.a
 A.uc(J.cT(l))
