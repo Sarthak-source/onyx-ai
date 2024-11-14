@@ -12816,7 +12816,7 @@ if(r==null)r=14
 s=A.c0(a,B.c7)
 s=s==null?null:s.gcO()
 if(s==null)s=B.W
-return A.alF(B.Ci,B.Cr,B.Cp,r*s.a/14)},
+return A.alF(B.Ch,B.Cr,B.Cp,r*s.a/14)},
 Kp:function Kp(a,b,c,d,e,f,g,h,i,j,k,l){var _=this
 _.c=a
 _.d=b
@@ -39239,7 +39239,7 @@ this.am(new A.adE(this))
 s=this.a.d
 if(s!=null)s.$0()},
 a5M(){this.am(new A.adC(this))},
-M(a){var s=this,r=null,q=s.a0H(a),p=s.d?B.Bo.ci(a):B.K,o=s.a.d,n=A.apu(B.T,r,q,p,B.K,44,o,B.Ck,1)
+M(a){var s=this,r=null,q=s.a0H(a),p=s.d?B.Bo.ci(a):B.K,o=s.a.d,n=A.apu(B.T,r,q,p,B.K,44,o,B.Cj,1)
 if(o!=null)return A.nm(r,n,B.a9,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,s.ga5L(),s.ga5N(),s.ga5P())
 else return n},
 a0H(a){var s,r=null,q=this.a,p=q.c
@@ -42253,7 +42253,7 @@ s.aJ()}}
 A.V7.prototype={
 G(){return"ButtonTextTheme."+this.b}}
 A.ES.prototype={
-gc5(){switch(0){case 0:break}var s=B.Cj
+gc5(){switch(0){case 0:break}var s=B.Ci
 return s},
 gcj(){$label0$0:{break $label0$0}return B.we},
 j(a,b){var s=this
@@ -42596,7 +42596,7 @@ M(a){var s=null,r=A.bL(a,B.bp,t.w).w.r.b+8
 return new A.d_(new A.aC(8,r,8,8),new A.kU(new A.FO(this.c.T(0,new A.h(8,r))),A.hN(A.nK(B.Y,B.yl,A.vf(this.d,B.az,B.aR,B.e2),B.b5,s,1,s,s,s,s,s,B.e4),s,222),s),s)}}
 A.q0.prototype={
 M(a){var s=null
-return A.hN(A.asy(this.d,this.c,A.asz(B.ev,s,s,s,s,B.aT,s,s,B.aT,A.a_(a).ax.a===B.ah?B.j:B.D,s,B.Ln,B.Cm,s,B.fL,s,s,s,s)),s,1/0)}}
+return A.hN(A.asy(this.d,this.c,A.asz(B.ev,s,s,s,s,B.aT,s,s,B.aT,A.a_(a).ax.a===B.ah?B.j:B.D,s,B.Ln,B.Cl,s,B.fL,s,s,s,s)),s,1/0)}}
 A.vB.prototype={
 gB(a){var s=this
 return A.bv([s.a,s.b,s.c,s.d,s.e,s.f,s.y,s.r,s.w,s.x,s.z,s.Q,s.as])},
@@ -48037,7 +48037,7 @@ a0K(){var s,r=this.c
 r.toString
 s=A.a_(r).w
 $label0$0:{if(B.b2===s||B.bD===s||B.bE===s){r=B.Ct
-break $label0$0}if(B.ab===s||B.bC===s||B.R===s){r=B.Cl
+break $label0$0}if(B.ab===s||B.bC===s||B.R===s){r=B.Ck
 break $label0$0}r=null}return r},
 Ze(a5){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3=this,a4=null
 a3.a.toString
@@ -56320,7 +56320,7 @@ s=this.b
 return s*(B.h.fQ(a-1,this.a)+1)-(s-this.d)}}
 A.a9j.prototype={}
 A.a9k.prototype={
-Gg(a){var s=Math.max(0,a.w-4)/2,r=s/3
+Gg(a){var s=Math.max(0,a.w-4)/2,r=s/1.5
 return new A.a9n(2,r+4,s+4,r,s,A.ua(a.x))}}
 A.rv.prototype={
 k(a){return"crossAxisOffset="+A.i(this.w)+"; "+this.Wj(0)}}
@@ -75998,7 +75998,7 @@ a2=t.z
 a3=A.aBW(A.aF(["Content-Type","application/json"],a0,a2))
 a3.a="POST"
 s=7
-return A.R(n.a.FJ("https://onix-bot.onrender.com/ask",null,a1,null,null,a3,null,a2),$async$jP)
+return A.R(n.a.FJ("http://127.0.0.1:5000/ask",null,a1,null,null,a3,null,a2),$async$jP)
 case 7:m=a8
 if(m.c===200){l=m.a
 A.uc(J.cT(l))
@@ -76128,7 +76128,7 @@ Zq(a,b,c,d){var s,r=null,q=A.mO(10),p=d.c,o=p?r:new A.a5b(b,a,c),n=p?A.hN(new A.
 n=A.aqy(n,p?r:new A.a5c(b,a,c),r)
 p=p?"Waiting for response":"Write a message..."
 s=A.fs(r,r,B.hT,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)
-n=A.aqI(r,new A.hD(4,A.mO(10),B.p),r,B.Co,r,r,r,r,!0,r,r,r,r,r,r,B.kZ,!0,r,r,r,r,r,r,r,r,r,r,r,r,s,p,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,n,r,r,r,r)
+n=A.aqI(r,new A.hD(4,A.mO(10),B.p),r,B.Cn,r,r,r,r,!0,r,r,r,r,r,r,B.kZ,!0,r,r,r,r,r,r,r,r,r,r,r,r,s,p,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,n,r,r,r,r)
 return new A.d_(B.lj,A.nK(B.Y,q,new A.zk(b,c,n,B.Mi,B.Lx,B.Ly,o,!0,r),B.C,r,0.5,r,r,r,r,r,B.cZ),r)},
 a8i(a,b,c,d){var s,r={}
 r.a=b
@@ -76288,13 +76288,13 @@ $2(a,b){var s,r=null,q=this.b,p=this.a,o=p.c,n=o.a===B.fv,m=n?B.cP:B.bt,l=n?B.qZ
 if(!n)B.b.L(j,A.b([A.apd(B.bs,new A.Fc(A.hN(A.amo("assets/onyx-logo.png",B.yK,r,r),26,26),r),16),B.Ls],k))
 s=t.t_
 s=n?A.b([B.bs,B.bs],s):A.b([B.j,B.j],s)
-j.push(A.aqd(new A.Fe(B.ke,new A.EQ(s,A.azH(new A.d_(B.Ch,p.d,r),A.fs(r,r,n?B.j:B.n,r,r,r,r,r,r,r,r,18,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),r),r)))
+j.push(A.aqd(new A.Fe(B.ke,new A.EQ(s,A.azH(new A.d_(B.Cg,p.d,r),A.fs(r,r,n?B.j:B.n,r,r,r,r,r,r,r,r,18,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),r),r)))
 l=A.b([A.rg(j,B.bt,l,B.b8)],k)
 n=o.d
 if(n!=null)l.push(new A.d_(B.Cf,A.rg(A.b([B.D0,B.xa,A.aqd(A.iN(n,r,B.bn,r,B.ND,r,r))],k),B.az,B.aR,B.b8),r))
 o=o.r
 if(o!=null){o=J.cf(o)
-l.push(new A.d_(B.Cg,A.hN(new A.GE(B.zy,new A.JT(new A.a46(p),o,!0,!0,!0,r),r,B.aE,!1,r,r,B.Hn,!1,r,o,B.a9,B.wm,r,B.ar,B.aj,r),100,r),r))}return new A.qe(0.8,q,new A.kI(q,r,r,new A.d_(B.Cn,A.vf(l,m,B.aR,B.b8),r),r),r)},
+l.push(new A.d_(B.Co,A.hN(new A.GE(B.zy,new A.JT(new A.a46(p),o,!0,!0,!0,r),r,B.aE,!1,r,r,B.Hn,!1,r,o,B.a9,B.wm,r,B.ar,B.aj,r),130,r),r))}return new A.qe(0.8,q,new A.kI(q,r,r,new A.d_(B.Cm,A.vf(l,m,B.aR,B.b8),r),r),r)},
 $S:497}
 A.a46.prototype={
 $2(a,b){var s,r=null,q=this.a.c.r
@@ -80587,17 +80587,17 @@ B.bw=new A.aC(0,0,0,0)
 B.Cd=new A.aC(0,0,0,10)
 B.Ce=new A.aC(0,16,0,16)
 B.Cf=new A.aC(0,4,0,0)
-B.Cg=new A.aC(0,8,0,0)
 B.lj=new A.aC(12,10,12,10)
-B.Ch=new A.aC(12,12,12,12)
-B.Ci=new A.aC(12,8,12,8)
-B.Cj=new A.aC(16,0,16,0)
-B.Ck=new A.aC(16,18,16,18)
-B.Cl=new A.aC(16,4,16,4)
-B.Cm=new A.aC(20,0,20,3)
+B.Cg=new A.aC(12,12,12,12)
+B.Ch=new A.aC(12,8,12,8)
+B.Ci=new A.aC(16,0,16,0)
+B.Cj=new A.aC(16,18,16,18)
+B.Ck=new A.aC(16,4,16,4)
+B.Cl=new A.aC(20,0,20,3)
 B.lk=new A.aC(20,20,20,20)
-B.Cn=new A.aC(20,6,20,6)
-B.Co=new A.aC(22,12,22,12)
+B.Cm=new A.aC(20,6,20,6)
+B.Cn=new A.aC(22,12,22,12)
+B.Co=new A.aC(38,8,0,0)
 B.Cp=new A.aC(4,0,4,0)
 B.TF=new A.aC(4,4,4,5)
 B.Cq=new A.aC(6,6,6,6)
