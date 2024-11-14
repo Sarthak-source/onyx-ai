@@ -75747,7 +75747,7 @@ q=a1
 s=1
 break}else if(J.c(k,"view_order_details")){h=J.cp(J.cp(l,"intent"),"order_number")
 g=J.cp(l,"answer")
-f=J.cp(J.cp(l,"intent"),"options")
+f=J.cp(J.cp(l,"intent"),"option")
 A.u8("Order details for order number: "+A.i(h))
 a1=A.jD(null,f,B.bB,null,"",g)
 q=a1
