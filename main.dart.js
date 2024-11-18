@@ -93721,7 +93721,7 @@ a3=t.z
 a4=B.aPN(B.aw(["Content-Type","application/json"],a1,a3))
 a4.a="POST"
 s=7
-return B.M(n.a.Kx("http://127.0.0.1:5000/ask",null,a2,null,null,a4,null,a3),$async$lW)
+return B.M(n.a.Kx("https://onix-bot.onrender.com/ask",null,a2,null,null,a4,null,a3),$async$lW)
 case 7:m=a9
 if(m.c===200){l=m.a
 B.y1(J.dg(l))
